@@ -1,3 +1,9 @@
+<script setup lang="ts">
+defineProps<{
+  articlesDescription: articlesDescription;
+}>();
+</script>
+
 <template>
   <el-link :underline="false" :href="articlesDescription.url">
     <el-descriptions :title="articlesDescription.title">
@@ -19,18 +25,6 @@
     </el-descriptions>
   </el-link>
 </template>
-
-<script>
-export default {
-  name: "ArticleDescription",
-  props: {
-    articlesDescription: Object,
-  },
-  setup(props) {
-    // console.log(props.articlesDescription)
-  },
-};
-</script>
 
 <style scoped>
 .el-link {
