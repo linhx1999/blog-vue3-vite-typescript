@@ -1,11 +1,7 @@
+<script setup lang="ts"></script>
+
 <template>
   <h1>BlogCategory</h1>
 </template>
 
-<script>
-export default {
-  name: "BlogCategory",
-};
-</script>
-
-<style></style>
+<style scoped></style>
