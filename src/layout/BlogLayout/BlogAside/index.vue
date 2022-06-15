@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import AsideBloggerCard from "./AsideBloggerCard.vue";
 import { useRouter } from "vue-router";
-const router = useRouter();
-const routes = router.getRoutes();
+
+const routes = useRouter().getRoutes();
 </script>
 
 <template>

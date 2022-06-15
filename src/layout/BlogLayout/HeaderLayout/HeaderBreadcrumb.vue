@@ -1,9 +1,6 @@
 <script setup lang="ts">
-import { useRoute, useRouter } from "vue-router";
+import { useRoute } from "vue-router";
 const route = useRoute();
-const router = useRouter();
-const routes = router.getRoutes();
-const currentRoute = router.currentRoute;
 </script>
 
 <template>
