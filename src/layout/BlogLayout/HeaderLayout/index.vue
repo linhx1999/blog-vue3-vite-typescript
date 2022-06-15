@@ -2,7 +2,6 @@
 import HeaderBreadcrumb from "./HeaderBreadcrumb.vue";
 import { useRouter } from "vue-router";
 const router = useRouter();
-const routes = router.getRoutes();
 </script>
 
 <template>

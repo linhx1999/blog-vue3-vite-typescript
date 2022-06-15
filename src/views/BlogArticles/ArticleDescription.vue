@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineProps<{
-  articlesDescription: articlesDescription;
+  articlesDescription: IArticlesDescription;
 }>();
 </script>
 

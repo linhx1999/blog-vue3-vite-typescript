@@ -1,4 +1,4 @@
-declare interface articlesDescription {
+declare interface IArticlesDescription {
   url: string;
   title: string;
   content_short: string;

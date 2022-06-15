@@ -3,7 +3,7 @@ import ArticleDescription from "./ArticleDescription.vue";
 import http from "@/utils/request";
 import { onBeforeMount, ref } from "vue";
 
-const articlesDescriptions = ref<articlesDescription[]>();
+const articlesDescriptions = ref<IArticlesDescription[]>();
 
 onBeforeMount(async () => {
   articlesDescriptions.value = (await http.get("/articles")).data;
